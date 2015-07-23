@@ -1,6 +1,7 @@
 # Coursera---getting-and-cleaning-data
 
 run_analysis.R tries to accomplish the following:
+
 1. Combine the following files (from original data) into 1 big file:
    - subject_train.txt
    - X_train.txt
