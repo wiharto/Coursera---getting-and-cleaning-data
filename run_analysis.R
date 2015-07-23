@@ -55,7 +55,7 @@ dt = as.data.table(tidy1)
 tidy2 = dt[ , lapply(.SD, mean), by = .(SubjectNumber, Activity)]
 
 # Write tidy2 dataset in txt file
-write.table(tidy2, file = "tidy2.txt", sep = " ", dec = ".", 
+write.table(tidy2, file = "tidy2.txt", sep = ",", dec = ".", 
             row.names = FALSE)
 
 
